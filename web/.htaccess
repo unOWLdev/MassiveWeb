@@ -1,0 +1,4 @@
+RewriteBase /
+RewriteEngine On
+RewriteRule ^bnb/(.*)/(.*) /bnb.php?id=$1&name=$2 [QSA]
+RewriteRule ^bnbs/(.*) /bnbs.php?page=$1 [QSA]
